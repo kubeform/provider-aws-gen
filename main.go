@@ -38,12 +38,13 @@ func main() {
 	}
 
 	opts := &util.GeneratorOptions{
-		ProviderName:       "aws",
-		ProviderData:       aws.Provider(),
-		ProviderImportPath: "github.com/terraform-providers/terraform-provider-aws/aws",
-		Version:            "v1alpha1",
-		APIsPath:           apisPath,
-		ControllerPath:     controllerPath,
+		ProviderName:         "aws",
+		ProviderNameOriginal: "aws",
+		ProviderData:         aws.Provider(),
+		ProviderImportPath:   "github.com/terraform-providers/terraform-provider-aws/aws",
+		Version:              "v1alpha1",
+		APIsPath:             apisPath,
+		ControllerPath:       controllerPath,
 	}
 	err := util.Generate(opts)
 	if err != nil {
