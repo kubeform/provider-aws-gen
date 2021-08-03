@@ -3,7 +3,7 @@
 
 # Kubeform AWS Provider Code Generator
 
-Generates code for Kubeform AWS Provider
+Kubeform code generator for [Terraform AWS Provider](https://github.com/hashicorp/terraform-provider-aws)
 
 ## Installation
 
