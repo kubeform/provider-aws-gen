@@ -7,3 +7,5 @@ require (
 	k8s.io/apimachinery v0.21.2
 	kubeform.dev/generator-v2 v0.0.26
 )
+
+replace github.com/terraform-providers/terraform-provider-aws => github.com/kubeform/terraform-provider-aws kubeform-v4.4.0
