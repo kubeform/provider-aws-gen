@@ -22,7 +22,7 @@ import (
 
 	"kubeform.dev/generator-v2/util"
 
-	"github.com/terraform-providers/terraform-provider-aws/aws"
+	"github.com/hashicorp/terraform-provider-aws/aws"
 )
 
 func main() {
@@ -41,7 +41,7 @@ func main() {
 		ProviderName:         "aws",
 		ProviderNameOriginal: "aws",
 		ProviderData:         aws.Provider(),
-		ProviderImportPath:   "github.com/terraform-providers/terraform-provider-aws/aws",
+		ProviderImportPath:   "github.com/hashicorp/terraform-provider-aws/aws",
 		ProviderConfig:       "hashicorp/aws",
 		Version:              "v1alpha1",
 		APIsPath:             apisPath,
