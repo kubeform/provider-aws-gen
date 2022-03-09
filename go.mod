@@ -8,4 +8,4 @@ require (
 	kubeform.dev/generator-v2 v0.0.28
 )
 
-replace github.com/hashicorp/terraform-provider-aws => github.com/kubeform/terraform-provider-aws 09b3e222c6f15629205ff9a927fe5c90c58aadf5
+replace github.com/hashicorp/terraform-provider-aws => github.com/kubeform/terraform-provider-aws v1.60.1-0.20220307131809-09b3e222c6f1
