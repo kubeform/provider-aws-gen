@@ -43,6 +43,7 @@ func main() {
 		ProviderData:         aws.Provider(),
 		ProviderImportPath:   "github.com/hashicorp/terraform-provider-aws/aws",
 		ProviderConfig:       "hashicorp/aws",
+		TfPluginVersion:      "v2.8.0",
 		Version:              "v1alpha1",
 		APIsPath:             apisPath,
 		ControllerPath:       controllerPath,
